@@ -1,7 +1,9 @@
+import Layout from '../components/Layout';
+
 const Index = () => (
-  <div>
-    Welcome to home page.
-  </div>
+  <Layout title="Home">
+    <p>Welcome to home page.</p>
+  </Layout>
 );
 
 export default Index;
